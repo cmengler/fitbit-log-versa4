@@ -1,0 +1,12 @@
+<defs>
+    <symbol id="panel">
+        <rect x="66" y="0" width="100%-132" height="100" fill="inherit" />
+        <circle r="50" cx="66" cy="50" fill="inherit" />
+        <circle r="50" cx="100%-66" cy="50" fill="inherit" />
+        <image id="icon" x="38" y="16" fill="white" width="68" height="68" />
+        <text id="label" class="panel-label" x="100%-212" y="75" fill="white" font-size="68"
+            font-weight="light">-----</text>
+        <text id="unit" class="panel-label-unit" x="100%-72" y="76" fill="white" font-size="20"
+            font-weight="light">--</text>
+    </symbol>
+</defs>

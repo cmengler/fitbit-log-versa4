@@ -1,0 +1,110 @@
+<svg id="view-weight" class="application-fill" viewport-fill="black">
+  <use id="tumbler-left" href="#tumblerview">
+    <use id="left-item0" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item1" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item2" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item3" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item4" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item5" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item6" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item7" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item8" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item9" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item10" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item11" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item12" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item13" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item14" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item15" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item16" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item17" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item18" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item19" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="left-item20" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+  </use>
+
+  <use id="settings-colon-container" href="#static-text" class="tumbler-colon h1">
+    <set href="#text" attributeName="text-buffer" to="." />
+  </use>
+
+  <use id="tumbler-right" href="#tumblerview">
+    <use id="right-item0" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="right-item1" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="right-item2" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="right-item3" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="right-item4" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="right-item5" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="right-item6" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="right-item7" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="right-item8" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+    <use id="right-item9" href="#tumbler-item">
+      <set href="value/text" attributeName="text-buffer" to="0" />
+    </use>
+  </use>
+
+  <use id="units" href="#tumbler-toggle-label" class="unit-box">
+    <set href="tumbler-toggle-top" attributeName="text-buffer" to="kg" />
+  </use>
+
+  <use id="log-button" href="#icon-button" class="medium-button application-fill" />
+</svg>

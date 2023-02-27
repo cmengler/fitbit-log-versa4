@@ -1,0 +1,33 @@
+{
+  "name": "fblog",
+  "version": "1.0.0",
+  "private": true,
+  "fitbit": {
+    "appUUID": "53a40025-58d7-48ab-9758-cf4a4b53599b",
+    "appType": "app",
+    "appDisplayName": "Log",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "atlas",
+      "hera"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US",
+    "enableProposedAPI": true
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~7.1.0-pre.0",
+    "@fitbit/sdk-build-targets": "cmengler/fitbit-sdk-build-targets",
+    "@fitbit/sdk-cli": "~1.8.0-pre.10",
+    "@types/node": "^18.14.1",
+    "fitbit-sdk-types": "^8.0.3"
+  }
+}

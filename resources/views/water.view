@@ -1,0 +1,6 @@
+<svg id="view-water" viewport-fill="black">
+    <use id="log-button" href="#icon-button" class="medium-button fb-cyan" />
+    <text id="label">----</text>
+    <use id="btn-decrement" href="#text-button" class="text-button bottom left secondary application-fill" />
+    <use id="btn-increment" href="#text-button" class="text-button bottom right application-fill" />
+</svg>

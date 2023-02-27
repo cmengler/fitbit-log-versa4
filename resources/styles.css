@@ -1,0 +1,50 @@
+/* APP */
+.application-fill {
+  fill: fb-green;
+}
+
+.loading {
+  font-family: 'System-Regular';
+  fill: white;
+  font-size: 30;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+/* COMMON */
+#log-button #image {
+  href: './resources/icons/check.png';
+}
+
+/* TUMBLER */
+#tumbler-left #value text {
+  text-anchor: end;
+}
+
+/* WATER */
+#view-water #btn-increment {
+  fill: fb-cyan;
+}
+
+#view-water #btn-increment #text {
+  fill: black;
+  font-size: 60;
+  text-buffer: '+';
+}
+
+#view-water #btn-decrement {
+  fill: fb-cyan;
+}
+
+#view-water #btn-decrement #text {
+  fill: black;
+  font-size: 68;
+  text-buffer: '-';
+}
+
+#view-water #label {
+  fill: white;
+  font-size: 74;
+  text-anchor: middle;
+  font-weight: light;
+}

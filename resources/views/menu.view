@@ -1,0 +1,12 @@
+<svg id="view-menu" viewport-fill="black">
+    <use id="panel-weight" y="50%-100" href="#panel" fill="#222222" pointer-events="visible">
+        <set href="icon" attributeName="href" to="./resources/icons/gauge.png" />
+        <set href="label" attributeName="text-buffer" to="--" />
+        <set href="unit" attributeName="text-buffer" to="kg" />
+    </use>
+    <use id="panel-water" y="50%+10" href="#panel" fill="#222222" pointer-events="visible">
+        <set href="icon" attributeName="href" to="./resources/icons/water.png" />
+        <set href="label" attributeName="text-buffer" to="--" />
+        <set href="unit" attributeName="text-buffer" to="ml" />
+    </use>
+</svg>

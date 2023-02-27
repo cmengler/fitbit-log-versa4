@@ -1,0 +1,54 @@
+/* APP */
+.loading {
+  x: 50%;
+  y: 50%+15;
+}
+
+/* TUMBLER */
+#tumbler-left {
+  x: 64;
+  y: 120;
+  width: 120;
+  height: 100%;
+}
+
+#tumbler-right {
+  x: 198;
+  y: 120;
+  width: 120;
+  height: 100%;
+}
+
+#tumbler-left #value text {
+  x: 100%;
+}
+
+.tumbler-colon {
+  x: 181;
+  y: -16;
+  width: 12;
+}
+
+.unit-box {
+  x: 100%-80;
+  y: 36;
+  width: 60;
+}
+
+/* WEIGHT */
+#view-weight #log-button {
+  x: 248;
+  y: 244;
+}
+
+/* WATER */
+#view-water #log-button {
+  x: 248;
+  y: 18;
+}
+
+#view-water #label {
+  x: 50%;
+  y: 50%+18;
+  width: 200;
+}
