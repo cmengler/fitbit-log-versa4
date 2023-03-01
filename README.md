@@ -16,5 +16,5 @@ Quick and convenient way to log your weight and daily water consumption.
 
 ## Notes
 
-- Requires an application to be registered with Fitbit, set the `CLIENT_ID` and `CLIENT_SECRET` in `settings/oauth.secret.ts`.
+- Requires an application to be registered with Fitbit, set the `FITBIT_CLIENT_ID` and `FITBIT_CLIENT_SECRET` in `common/oauth.secret.ts`.
 - You must have atleast one recent weight log that has been entered via the Fitbit Companion app for the weight logger to initialise the values from.
