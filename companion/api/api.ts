@@ -1,11 +1,11 @@
-import { WaterResult, WeightResult } from './result';
+import { UserResult, WaterResult, WeightResult } from './result';
 
 export default class FitbitApi {
   static baseUrl: string = 'https://api.fitbit.com/1/user/-';
 
   private accessToken: string;
 
-  constructor(accessToken: string) {
+  constructor(accessToken?: string) {
     this.setAccessToken(accessToken);
   }
 
@@ -21,6 +21,21 @@ export default class FitbitApi {
   setAccessToken(accessToken: string) {
     this.accessToken = accessToken;
   }
+
+  getUser = async (): Promise<UserResult> => {
+    try {
+      const response = await this.request('GET', [`${FitbitApi.baseUrl}/profile.json`]);
+
+      const data = await response.json();
+
+      return {
+        success: true,
+        display_name: data.user.displayName,
+      };
+    } catch (e) {
+      return { success: false };
+    }
+  };
 
   getWeight = async (): Promise<WeightResult> => {
     let now = new Date();
